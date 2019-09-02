@@ -21,7 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <button onClick={()=>setCount(count + 1)}>I've been clicked {count} times!</button>
+      <button onClick={()=>setCount(count + 1)}>Increment</button>
+      I've been clicked {count} times!
+      <button onClick={()=>setCount(count - 1)}>Decrement</button>
     </div>
   );
 }
