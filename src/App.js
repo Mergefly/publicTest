@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
           This is my demo React App!!
         </p>
         <Welcome />
+        <p>
+          <Counter />
+        </p>
       </header>
     </div>
   );
